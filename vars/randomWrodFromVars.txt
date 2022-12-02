@@ -1,0 +1,1 @@
+<b>echo</b> cette methode affiche un nom aleatoire depuis resources/mots.txt
