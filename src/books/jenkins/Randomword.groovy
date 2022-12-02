@@ -9,7 +9,7 @@ class Randomword {
     public Randomword(pipelineSteps) {
         this.pipelineSteps = pipelineSteps
         this.mots = this.readResourceAsList('mots.txt')
-        this.random = new SecureRandom()
+        this.random = new Random()
     }
 
     String get() {
